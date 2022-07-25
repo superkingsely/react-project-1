@@ -1,4 +1,4 @@
-# lante the following;
+# larnt the following;
   learning react
   learning json-server
   learning react-router
