@@ -3,7 +3,7 @@
   json-server\
   react-router\
   bootstrap\
-# larnt the followin;\
+# larnt the followin;
   learning react\
   learning json-server\
   learning react-router\
