@@ -2,7 +2,7 @@
 # here our project is integrated with 
   json-server\
   react-router\
-  bootstrap\
+  bootstrap
 # larnt the followin;
   learning react\
   learning json-server\
