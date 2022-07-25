@@ -1,9 +1,17 @@
 import React from 'react';
+import Home from './components/home';
+import { Routes ,Route, } from 'react-router-dom';
+import Navbar from './components/navbar';
+
 
 const App = () => {
     return ( 
         <>
-            <h1 style={{textAlign:"center"}}>welcome chi 🐔 </h1>
+        <Navbar/>
+        <Routes>
+           <Route path='/' element={<Home/>}/>
+           
+        </Routes>
         </>
      );
 }
