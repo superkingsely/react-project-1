@@ -1,5 +1,6 @@
-learning react
-learning json-server
-learning react-router
-learning bootstrap
-learning api
+# lante the following;
+  learning react
+  learning json-server
+  learning react-router
+  learning bootstrap
+  learning api
