@@ -3,7 +3,7 @@ import React from 'react';
 const App = () => {
     return ( 
         <>
-            <h1>welcome chi 🐔 </h1>
+            <h1 style={{textAlign:"center"}}>welcome chi 🐔 </h1>
         </>
      );
 }
