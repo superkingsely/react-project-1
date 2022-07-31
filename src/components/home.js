@@ -13,7 +13,9 @@ const Home = () => {
         <div className="container-fluid bg-secondary vw-100 vh-100 py-3">
            {/* <Blog/> */}
            <Bloglist
-           blogs={blogs} />
+           blogs={blogs}
+         //  
+          />
         </div>
         </>
      );

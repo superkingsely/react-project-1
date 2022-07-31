@@ -8,18 +8,22 @@ const useFetch=(url)=>{
         const res=await fetch(url)
         const data=await res.json()
         setBlogs(data)
+        setLoading(false)
         console.log(data)
     }
 
-    const isloading=()=>{
-        setTimeout(()=>{
-            setLoading(false)
-        },1000)
-    }
+    // const isloading=()=>{
+    //    
+    //     // setTimeout(()=>{
+    //     //     setLoading(false)
+    //     // },1000)
+    // }
 
     useEffect(()=>{
-        isloading()
+        // isloading()
         getdata()
+        
+
         // console.log(getdata())
         console.log('url updated')
         return(()=>{console.log('compwill mount run')})
